@@ -1,0 +1,244 @@
+.container1:hover{
+    background-color: rgba(0, 0, 0, 0.064);
+}.container2:hover{
+    background-color: rgba(0, 0, 0, 0.064);
+}.container3:hover{
+    background-color: rgba(0, 0, 0, 0.064);
+}.container4:hover{
+    background-color: rgba(0, 0, 0, 0.064);
+}
+#button:hover
+{
+    background-color: orangered;
+    border: red;
+}
+#button
+{
+    background-color: green;
+    color: white;
+    width: 80PX;
+}
+.disp{
+    display: flex;
+}
+    .container1{
+     border: 1px solid rgba(0, 0, 0, 0.295);
+     background-color: rgba(255, 255, 255, 0.496);
+     width: 25%;
+     border-radius: 9px;
+     box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-left: 120px;
+     display:flex;
+     padding: 10px;
+    }
+    .container2{
+     border: 1px solid rgba(0, 0, 0, 0.375);
+     background-color: rgba(255, 255, 255, 0.496);
+     width: 25%;
+     border-radius: 9px;
+     box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-left: 70px;
+     display:flex;
+     padding: 10px;
+    }
+    .container4{
+     border: 1px solid rgba(0, 0, 0, 0.295);
+     background-color: rgba(255, 255, 255, 0.496);
+     width: 25%;
+     border-radius: 9px;
+     box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-left: 120px;
+     margin-top: 100px;
+     display:flex;
+     padding: 10px;
+    }
+    .container3{
+     border: 1px solid rgba(0, 0, 0, 0.295);
+     background-color: rgba(255, 255, 255, 0.496);
+     width: 25%;
+     border-radius: 9px;
+     box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-left: 70px;
+     margin-top: 100px;
+     display:flex;
+     padding: 10px;
+    }
+
+    h6{
+        color: rgba(0, 0, 0, 0.723);
+        padding-left: 60px;
+    }
+    #bt{
+width: 100%;
+height: 50px;
+color: white;
+border: rgba(36, 36, 79, 0.771);
+background-color:rgba(36, 36, 79, 0.771);
+padding: 10px;
+}
+#bt:hover{
+background-color: rgb(74, 74, 118);
+}
+#foot{
+background-color: rgba(0, 0, 0, 0.718);
+color: white;
+text-align: center;}
+
+.section1{
+background-color: rgb(81, 81, 81);
+}
+.extra{
+    display: flex;
+}
+.container5{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    background-color: rgba(255, 255, 255, 0.496);
+    width: 25%;
+    border-radius: 9px;
+    box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 120px;
+    margin-top: 50px;
+    padding: 10px;
+   }
+   .container6{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    background-color: rgba(255, 255, 255, 0.496);
+    width: 25%;
+    border-radius: 9px;
+    box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 70px;
+    margin-top: 50px;
+    padding: 10px;
+   } 
+   .container7{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    background-color: rgba(255, 255, 255, 0.496);
+    width: 25%;
+    border-radius: 9px;
+    box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 120px;
+    margin-top: 50px;
+    padding: 10px;
+   }
+   #sign{
+    padding: 7px; 
+    width: 13%;
+     background-color: goldenrod;
+      color: white; 
+      border: 2px solid goldenrod;
+      box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   #sign:hover{
+    background-color: rgba(218, 165, 32, 0.825);
+   }
+
+   /*start of login page*/
+   input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container8 {
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.827);
+    margin-left: 320px;
+    margin-right: 320px;
+    box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #ffffff4e;
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 2% auto 2% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 6%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #cecece;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }

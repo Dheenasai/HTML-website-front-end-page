@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>dkcart/login</title>
+  <style>
+    .container{
+      transform: translate( 0%, -130%);
+         border: 1px solid white;
+         background-color: rgba(35, 31, 31, 0.681);
+         width: 650px;
+         border-radius: 19px;
+         box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }  
+    #inp{
+      padding: 6px;
+      border-radius: 16px;
+      border: 1PX SOLID white;
+      width: 42%;
+      font-size: 16px;
+    }
+    #inp:hover{
+      border: 1px solid white;
+      box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #button{
+      border: 2px solid blue;
+      border-radius: 14px;
+      background-color: blue;
+      color: white;
+      padding: 8px;
+    }
+    #box{
+      text-align: left;
+      color: white;
+    }
+    #button:hover{
+      border: 2px solid blue;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    </style>
+</head>
+<body>
+  <img src="./Screenshot (27).png" height="700px" width="100%" style=" filter: blur(3px);">
+  <center>
+  <div class="container">
+    <form action="">
+    <h1 style="text-align: center; color: white;">LOG IN</h1><br>
+<h4 id="box"> &nbsp; &nbsp; USERNAME&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="search" placeholder=" Username" class="inpat" id="inp" required><br><br>
+   &nbsp; &nbsp; EMAIL &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  <input type="email" placeholder="&nbsp; Email ID" id="inp" required><br><br>
+   &nbsp; &nbsp;  MOBILE NUMBER &nbsp; <input type="tel" placeholder="&nbsp; Number" id="inp" maxlength="10"></h4><br>
+ <center><h4 style="color: white;"> <input type="radio" name="acc" required>PREMIUM ACCOUNT &nbsp; <input  type="radio" name="acc" required>NORMAL ACCOUNT<BR><br><br></h4>
+  <a href="accounts.html"><input type="button" value="LOG IN" id="button" onclick="checkForm()"></a> &nbsp; <a href="ui.html"><input type="button" value="CANCEL" id="button" ></a></center><br><br><br>
+  </form>  
+</div>
+  </center>
+</body>
+<script>
+function checkForm() {
+  var name = document.getElementById("inp").value;
+  if (name == "") {
+    alert("Please fill out the required field.");
+    return false;
+  }
+}
+</script>
+</html>
